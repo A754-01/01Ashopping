@@ -1,0 +1,12 @@
+.main {
+  margin-top: 20px;
+
+}
+
+.box_bd {
+  height: 450px;
+}
+
+.box_bd ul li {
+  float: left;
+}

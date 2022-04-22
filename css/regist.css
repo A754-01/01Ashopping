@@ -1,0 +1,93 @@
+.main {
+  height: 800px;
+  border: 1px solid lightgray;
+  margin: 20px 0;
+}
+.hd{
+  padding: 0 20px;
+  height: 50px;
+  background-color:antiquewhite;
+  line-height: 50px;
+  border-bottom: 1px solid lightgray;
+}
+.hd h3 {
+  float: left;
+}
+
+.hd h5 {
+  float: right;
+}
+.form{
+  margin: 80px 0px 0px 350px;
+  width: 660px;
+  height: 560px;
+  /* background-color: pink; */
+  color: brown;
+  
+}
+.form ul li{
+  padding-top: 40px;
+}
+.form label{
+  display: inline-block;
+  width: 108px;
+  text-align: right;
+  color: black;
+}
+.form input{
+  width: 240px;
+  height: 40px;
+  border: 1px solid lightgray;;
+}
+.form .icon-cuowu{
+  font-size: 20px;
+}
+.yanzheng{
+  color: green;
+}
+.yanzheng i{
+  font-size: 20px;
+}
+.form .safe{
+  margin-left: 150px;
+  margin-top: -30px;
+  color: gray;
+}
+.form .safe span{
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  color: white;
+  
+}
+.form .safe span:nth-child(1){
+  background-color: red;
+}
+.form .safe span:nth-child(2){
+  background-color: green;
+}
+.form .safe span:nth-child(3){
+  background-color: orange;
+}
+.form .ck{
+  margin-left: 100px;
+}
+.form .ck a{
+  color: blue;
+}
+.form .check{
+  width: 15px;
+  height: 15px;
+}
+.form .ok{
+  margin-left: 150px;
+}
+.form .ok button{
+  width: 150px;
+  height: 50px;
+  background-color: brown;
+  color: white;
+}
+.form .ok button:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,251 @@
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+body{
+    background-color:whitesmoke;
+}
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.style_red {
+    color: brown;
+}
+
+/* shortcut 快捷导航模块 */
+.shortcut {
+    height: 30px;
+    background-color: lightgray;
+    line-height: 30px;
+}
+
+.shortcut ul li {
+    float: left;
+}
+
+/* header 头部模块 */
+.header {
+    position: relative;
+    height: 110px;
+    /* background-color: pink; */
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 160px;
+    height: 60px;
+    background-color: aqua;
+}
+
+.logo a {
+    display: block;
+    width: 160px;
+    height: 60px;
+    font-size: 0;
+
+}
+
+.logo a img {
+    width: 160px;
+    height: 60px;
+}
+
+/*search 搜索模块 */
+.search {
+    position: absolute;
+    left: 350px;
+    top: 35px;
+    width: 500px;
+    height: 35px;
+}
+
+.search input {
+    float: left;
+    width: 410px;
+    height: 35px;
+    padding-left: 5px;
+    border: 2px solid brown;
+}
+
+.search button {
+    float: left;
+    width: 90px;
+    height: 35px;
+    background-color: brown;
+
+}
+
+/* hotwords 热词模块 */
+.hotwords {
+    position: absolute;
+    left: 340px;
+    bottom: 15px;
+    font-size: 14px;
+}
+
+.hotwords a {
+    margin: 0 10px;
+}
+
+/* shopcar 购物车模块 */
+.shopcar {
+    position: absolute;
+    right: 80px;
+    top: 30px;
+    width: 130px;
+    height: 40px;
+    border: 1px solid lightgray;
+    line-height: 40px;
+    text-align: center;
+}
+
+.shopcar .icon-youjiantou1 {
+    color: gray;
+}
+
+.shopcar span {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+/* nav 导航模块 */
+.nav {
+    height: 50px;
+    border-bottom: 2px solid brown;
+}
+
+.nav .dropdown {
+    float: left;
+    width: 250px;
+    height: 52px;
+    background-color: brown;
+}
+
+
+
+/* 左侧 dropdown */
+.dropdown .dt {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    color: white;
+}
+
+.dropdown .dd {
+    /* display: none; */
+    width: 100%;
+    height: 455px;
+    background-color: rgb(191, 52, 75);
+}
+
+.dropdown .dd ul li {
+    height: 30px;
+    line-height: 30px;
+    margin-left: 2px;
+    margin-bottom: 17px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.dropdown .dd ul li:hover {
+    background-color: whitesmoke;
+    margin-left: 10px;
+    transition: all .5s;
+
+
+}
+
+.dropdown .dd ul li a {
+    color: white;
+}
+
+.dropdown .dd ul li:hover a {
+    color: brown;
+
+}
+
+.dropdown .dd i {
+    float: right;
+    color: white;
+}
+
+.dropdown .dd ul li:hover i {
+    color: brown;
+}
+
+/* 右侧 navitems */
+.nav .navitems {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.navitems ul li {
+    float: left;
+}
+
+.navitems ul li a {
+    font-size: 20px;
+    margin: 0 20px;
+
+}
+
+/* footer 底部模块 */
+.footer {
+    height: 300px;
+    padding-top: 30px;
+    background-color: lightgray;
+    color: gray;
+    /* margin-top: 20px; */
+  
+}
+
+.footer .help {
+    width: 100%;
+    height: 160px;
+    
+    
+}
+
+.footer .help div {
+    float: left;
+    padding-left:130px;
+}
+
+.help div ul li {
+    margin-top: 5px;
+}
+.help div ul li a{
+    font-size: 14px;
+}
+
+.copyright {
+    margin-top: 50px;
+}
+
+.copyright ul li {
+    text-align: center;
+    padding-top: 5px;
+}
+.copyright ul li p{
+    color: gray;
+}

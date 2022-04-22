@@ -1,0 +1,163 @@
+/* main 内容模块 */
+.main {
+  margin-left: 250px;
+  width: 950px;
+  height: 453px;
+}
+
+.focus {
+  float: left;
+  width: 698px;
+  height: 451px;
+  margin: 4px 4px 0px 4px;
+}
+
+.focus img {
+  width: 698px;
+  height: 451px;
+}
+
+.newsflash {
+  float: left;
+  width: 236px;
+  height: 449px;
+  margin-top: 4px;
+}
+
+.news {
+  border: 1px solid lightgray;
+  height: 150px;
+  width: 232px;
+}
+
+.news-hd {
+  height: 33px;
+  border-bottom: 1px dotted lightgray;
+}
+
+.news-hd h5 {
+  float: left;
+  margin: 10px 0 0 10px;
+}
+
+.news-hd a {
+  float: right;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.news-bd ul li {
+  padding: 5px 0 0 10px;
+}
+
+.news-bd a {
+  font-size: 12px;
+}
+
+.lifeservice {
+  width: 248px;
+  height: 226px;
+  text-align: center;
+}
+
+.lifeservice ul li {
+  float: left;
+  border: 1px solid lightgray;
+  border-top: none;
+  width: 76px;
+
+}
+
+
+.lifeservice img {
+  width: 30px;
+  height: 30px;
+  padding: 0px 20px;
+}
+
+.bargain img {
+  margin-top: 2px;
+  width: 234px;
+}
+
+.recom {
+  margin-top: 20px;
+  height: 325px;
+}
+
+.recom_hd {
+  float: left;
+}
+
+
+.recom_bd {
+  float: left;
+  margin-left: 10px;
+}
+
+.recom_bd ul li {
+  float: left;
+  border-left: 1px solid lightgray;
+}
+
+.recom_bd img {
+  width: 234px;
+  height: 324px;
+}
+
+.floor {
+  margin-top: 50px;
+}
+
+.jiadian {
+  height: 500px;
+}
+
+.box_hd {
+  line-height: 50px;
+  padding: 0 20px;
+  border-bottom: 2px solid brown;
+}
+
+.box_hd h3 {
+  float: left;
+  margin-right: 300px;
+}
+
+.box_hd ul li {
+  float: left;
+}
+
+.box_bd {
+  height: 500px;
+}
+
+.box_bd ul li {
+  float: left;
+  margin-left: 1px;
+}
+
+
+
+/* nav_list 电梯导航 */
+.nav_list {
+  width: 100px;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  margin-left: -750px;
+}
+
+.nav_list ul li {
+  height: 50px;
+  background-color: brown;
+  line-height: 50px;
+  margin-top: 2px;
+
+}
+
+.nav_list ul li a {
+  display: block;
+  color: white;
+  padding: 0 10px;
+}
